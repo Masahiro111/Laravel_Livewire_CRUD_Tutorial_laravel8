@@ -2,9 +2,6 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
     <head>
-
-        <x-partials.head />
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -22,16 +19,9 @@
     </head>
 
     <body>
-
-        <x-partials.nav />
-
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
-
-        <x-partials.footer />
-
-        @livewireScripts
     </body>
 
 </html>
