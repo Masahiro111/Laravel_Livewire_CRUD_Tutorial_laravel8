@@ -8,6 +8,7 @@ class Tag extends Component
 {
     public function render()
     {
-        return view('livewire.tag');
+        return view('livewire.tag')
+            ->layout('layouts.guest');
     }
 }
