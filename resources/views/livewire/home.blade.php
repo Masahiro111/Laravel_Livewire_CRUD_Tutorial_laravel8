@@ -1,5 +1,5 @@
 <div>
     <x-slot name="title">
-        Tags
+        Home
     </x-slot>
 </div>
